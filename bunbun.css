@@ -1,0 +1,444 @@
+body {
+    background-color: #273746;
+    margin: 0;
+    margin-top: 0;
+}
+
+/* Menue BUTTON I've animated  */
+.Button {
+padding: 15px 25px;
+cursor: pointer;
+outline: none;
+border: none;
+box-shadow: 0 6px #999;
+background-color: #008b8b; /* add background colour to the button */
+color: antiquewhite; /* match text color to main antiqueWhite color */
+cursor: pointer; /* change from pointer to hand when hovering */
+padding: 10px 30px; /* adds 10px of space to top and bottom of text and 30px of space to squish! */ 
+}
+
+.Button:hover {
+    background-color: antiquewhite; /* add background hovering color to the button */
+    color: #333; /* changes the text colour on hover so that it doesnt clash */
+}
+
+.Button:active {
+    background-color: antiquewhite;
+    box-shadow: 0 5px #667;
+    transform: translateY(4px); /* how much I want to button to "press" down by */
+}
+
+.Button {
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.button {
+    background-color: antiquewhite;
+    box-shadow: 0 5px #667;
+    transform: translateY(4px); /* how much I want to button to "press" down by */
+}
+
+/* This is the homescreen banner I'm setting up */
+#screen1 .banner {
+    height: 400px;
+    background-image: url(http://www.onceuponachef.com/images/2012/04/cinnamon-rolls-finished-575x431.jpg);
+    background-size: cover /* so that the image covers the entire div space */
+}
+
+/* This is the Fall Buns banner I'm setting up */
+#screen2 .banner1 {
+    height: 400px;
+    background-image: url(http://farm9.staticflickr.com/8033/7944212264_e657a8312f_b.jpg);
+    background-size: cover
+}
+
+/* Created another banner to add gaps in the interface - there may be a better way to do that */
+#screen2 .bannergap {
+    height: 90px;   
+}
+
+/* This is the Perennial homescreen I'm setting up */
+#screen3 .banner2 {
+    height: 400px;
+    background-image: url(https://whentoastersgopyro.files.wordpress.com/2013/02/cinnamon-rolls-with-icing-a.jpg);
+    background-size: cover
+}
+
+/* calling the banner gap I made above for screen 3 */
+#screen3 .bannergap {
+    height: 90px;   
+}
+
+#screen4 .bannergap{
+    height: 90px;
+}
+
+#screen5 .bannergap{
+    height: 90px;
+}
+
+#screen6 .bannergap{
+    height: 90px;
+}
+
+
+h1 {
+    margin-top: 5px;
+    height: 20px;
+    font-size: 50px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #faead6;
+}
+
+
+h2 {
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    color: antiquewhite    
+}
+
+h3 {
+    margin: 0;
+}
+
+menue {
+    margin: 30px;
+    font-size: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-top: 90px;
+    margin-bottom: 59px;
+    font-size: 20px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    color: antiquewhite;    
+}
+
+p1 {
+    font-size: 15px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+p2 {
+    font-size: 20px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    color: antiquewhite;  
+}
+
+p3 {
+    font-size: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    text-align: left;
+}
+
+p4 {
+    font-size: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    padding-left: 10px;
+}
+
+#fall {
+    width: 620px;   
+}
+
+
+.left0 {
+    width: 300px;
+    background-image: url(https://c2.staticflickr.com/4/3326/3501605739_5d478a7113_b.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right0 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left1 {
+    width: 300px;
+    background-image: url(http://assets.marthastewart.com/styles/wmax-1500/d21/med105199_0310_sticky/med105199_0310_sticky_sq.jpg?itok=OwcuWoo3);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right1 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left2 {
+    width: 300px;
+    background-image: url(https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/14718385_1817361145201787_7721646973895311360_n.jpg?ig_cache_key=MTM3ODUxMzYwMTQxODQ3NjgyNw%3D%3D.2);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right2 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left3 {
+    width: 300px;
+    background-image: url(https://photo2.foodgawker.com/wp-content/uploads/2017/04/2953073.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right3 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left4 {
+    width: 300px;
+    background-image: url(http://cdn.thewhoot.com.au/wp-content/uploads/2016/03/Copycat-Cinnabons-Cinnamon-Rolls.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right4 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.right5 {
+    width: 300px;
+    height: 90px;
+    float: right;
+}
+
+
+#perennial {
+    width: 620px;   
+}
+
+
+.left6 {
+    width: 300px;
+    background-image: url(http://rainydaygal.com/wp-content/uploads/2009/12/IMG_8900-800x533.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right6 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left7 {
+    width: 300px;
+    background-image: url(https://lh3.googleusercontent.com/-4dPJP8oUyQM/VcxNn4r-AeI/AAAAAAAFIZg/eIbrtDfKIzw/s800-Ic42/cinnamon-roll-mug-cake-21.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right7 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left8 {
+    width: 300px;
+    background-image: url(https://2.bp.blogspot.com/-juGIppFSmaQ/VxysIKS7TnI/AAAAAAAAR5g/SXr8czWxQxURP_gRBKrkKJ9HXtmsMwclQCLcB/s1600/Vegan%2Bcinnamon%2Brolls.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right8 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left9 {
+    width: 300px;
+    background-image: url(http://keeprecipes.com/sites/keeprecipes/files/cinnamon_roll.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right9 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left10 {
+    width: 300px;
+    background-image: url(https://images-gmi-pmc.edge-generalmills.com/3787dbbd-ba1f-4ff0-a03d-d2eef12f09f6.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right10 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+/* Classic Bun Pages */
+
+.left11 {
+    width: 300px;
+    background-image: url(https://cdn3.volusion.com/jpwbx.wqxbt/v/vspfiles/photos/449-5-2.jpg?1417064290);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right11 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left12 {
+    width: 300px;
+    background-image: url(http://cf.sprinklesomesugar.com/wp-content/uploads/2016/02/IMG_0307.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right12 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left13 {
+    width: 300px;
+    background-image: url(https://static1.squarespace.com/static/5113fcede4b099bd04eebc8d/t/5161ad1ae4b0f29c92643dc5/1365355815619/photo-1+copy.JPG);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right13 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left14 {
+    width: 300px;
+    background-image: url(http://www.alaskafromscratch.com/wp-content/uploads/2012/03/IMG_6256.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right14 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.left15 {
+    width: 300px;
+    background-image: url(http://carnaldish.com/wp-content/uploads/2012/02/blueberrycinnamonrolls23.jpg);
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+
+.right15 {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.right16 {
+    width: 300px;
+    height: 90px;
+    float: right;
+}
+
+/* Product Detial Maple Pecan */
+
+#pecan {
+    width: 1000px; 
+    text-align: left;
+}
+
+.photo {
+    width: 500px;
+    height: 300px;
+    float: right;
+}
+
+.description {
+    width: 450px;
+    background-image: url(http://i.huffpost.com/gadgets/slideshows/416200/slide_416200_5287156_free.jpg);
+    background-size: cover;
+    height: 500px;
+    float: left;
+}
+
+/* The About Section */
+
+#About {
+    width: 1000px;
+    text-align: left;
+}
+
+.text {
+    width: 500px;
+    height: 300px;
+    float: right;
+}
+
+.farm {
+    width: 450px;
+    background-image: url(http://www.trbimg.com/img-526ec32d/turbine/la-dd-great-la-bakeries-20131024-pictures-002);
+    background-size: cover;
+    height: 500px;
+    float: left;
+}
+
+/* Product Detail Walnut Bun */
+
+#walnut {
+    width: 1100px; 
+    text-align: left;
+}
+
+.photo2 {
+    width: 570px;
+    height: 300px;
+    float: right;
+}
+
+#walnutpic1 {
+    width: 450px;
+    background-image: url(http://assets.marthastewart.com/styles/wmax-1500/d21/med105199_0310_sticky/med105199_0310_sticky_sq.jpg?itok=OwcuWoo3);
+    background-size: cover;
+    height: 500px;
+    float: left;
+}
+
+
